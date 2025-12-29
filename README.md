@@ -6,13 +6,13 @@
 
 ---
 
-## 🧭 Overview
+## Overview
 **7Semi_ICM20948** is a lightweight Arduino library for the **TDK ICM-20948** 9-axis IMU.  
 It supports both **I²C and SPI** interfaces with flexible configuration, including DLPF, ODR, full-scale selection, and sensor gating.
 
 ---
 
-## ⚙️ Features
+## Features
 - I²C (400 kHz+) and SPI (Mode 0) support  
 - Accelerometer, Gyroscope, Magnetometer, and Temperature readouts  
 - Built-in scale conversion to physical units (g, dps, µT, °C)  
@@ -26,7 +26,7 @@ It supports both **I²C and SPI** interfaces with flexible configuration, includ
 
 ## SPI Connection
 ### Wiring (SPI - Arduino UNO)
-  ---------------------------
+ 
  * - SCLK        → D13
  * - MISO (SDO)  → D12
  * - MOSI (SDI)  → D11
@@ -49,7 +49,7 @@ It supports both **I²C and SPI** interfaces with flexible configuration, includ
 ## I2C Connection 
 
 ### Wiring (I2C - Arduino UNO)
-  ---------------------------
+  
  * - SCL  → A5
  * - SDA  → A4
  * - INT  → D2, optional
@@ -58,7 +58,7 @@ It supports both **I²C and SPI** interfaces with flexible configuration, includ
  
 
 ### Wiring (I2C - ESP32)
- ---------------------------
+
  * - SCL  → GPIO22
  * - SDA  → GPIO21
  * - INT  → any GPIO, optional
@@ -66,7 +66,7 @@ It supports both **I²C and SPI** interfaces with flexible configuration, includ
  * - GND  → GND
  
 
-## 🔍 Notes
+## Notes
 
 - **Magnetometer (AK09916)**  
   - The magnetometer is connected internally to the ICM-20948 via an auxiliary I²C master interface.  
