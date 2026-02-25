@@ -17,7 +17,7 @@
 #include <Arduino.h>
 #include <Wire.h>
 #include <SPI.h>
-#include "ICM20948_REGS.h"
+#include "ICM20948_regs.h"
 
 /**
  * Class
@@ -245,3 +245,4 @@ private:
 };
 
 #endif /* ICM20948_7SEMI_H */
+
